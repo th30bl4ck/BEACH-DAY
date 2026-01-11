@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_run_save",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_run_save",
+  "parent":{
+    "name":"run",
+    "path":"folders/Scripts/run.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

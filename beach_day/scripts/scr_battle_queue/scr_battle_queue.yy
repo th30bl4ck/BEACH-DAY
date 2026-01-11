@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_battle_queue",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_battle_queue",
+  "parent":{
+    "name":"battle",
+    "path":"folders/Scripts/battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
