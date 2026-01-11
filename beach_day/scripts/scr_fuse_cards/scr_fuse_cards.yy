@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_fuse_cards",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_fuse_cards",
+  "parent":{
+    "name":"fusion",
+    "path":"folders/Scripts/fusion.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

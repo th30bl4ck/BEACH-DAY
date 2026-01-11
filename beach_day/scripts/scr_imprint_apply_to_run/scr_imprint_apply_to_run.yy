@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_imprint_apply_to_run",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_imprint_apply_to_run",
+  "parent":{
+    "name":"imprints",
+    "path":"folders/Scripts/imprints.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
