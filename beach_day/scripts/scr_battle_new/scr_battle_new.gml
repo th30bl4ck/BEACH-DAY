@@ -1,8 +1,6 @@
 function scr_battle_new(run, enemy_id) {
-    var C = scr_constants();
-
     var b = {
-        phase: C.PHASE_PLAYER,
+        phase: 0,
         env: scr_make_env(run.env_id),
 
         player: { hp:40, hp_max:40, block:0, energy:3 },
@@ -15,10 +13,9 @@ function scr_battle_new(run, enemy_id) {
     };
 
     // copy run deck into draw pile (instances)
-    b.draw_pile = array_copy(run.deck, 0, array_length(run.deck));
+    b.draw_pile = run.deck;
     scr_battle_shuffle(b);
     scr_battle_draw(b, 5);
 
     return b;
 }
-
