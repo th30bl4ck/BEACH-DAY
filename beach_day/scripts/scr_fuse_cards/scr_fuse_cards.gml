@@ -1,4 +1,3 @@
-function scr_fuse_cards(){
 function scr_fuse_cards(run, uid_a, uid_b) {
     var idx_a = -1, idx_b = -1;
     for (var i=0;i<array_length(run.deck);i++) {
@@ -24,4 +23,3 @@ function scr_fuse_cards(run, uid_a, uid_b) {
     return true;
 }
 
-}

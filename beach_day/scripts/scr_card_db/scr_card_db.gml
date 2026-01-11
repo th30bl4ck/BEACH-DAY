@@ -1,4 +1,3 @@
-function scr_card_db(){
 function scr_card_db() {
     return {
         strike: {
@@ -30,4 +29,3 @@ function scr_get_card_def(def_id) {
     return variable_struct_get(db, def_id);
 }
 
-}

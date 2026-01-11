@@ -1,4 +1,3 @@
-function scr_battle_resolve(){
 function scr_battle_apply_env_to_damage(b, source_card, dmg) {
     // RUINS: if source card has tag "weird", +2 damage
     var def = scr_get_card_def(source_card.def_id);
@@ -35,4 +34,3 @@ function scr_battle_resolve(b) {
     }
 }
 
-}

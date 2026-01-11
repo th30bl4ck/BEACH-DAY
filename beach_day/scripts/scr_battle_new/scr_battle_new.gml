@@ -1,4 +1,3 @@
-function Script9(){
 function scr_battle_new(run, enemy_id) {
     var C = scr_constants();
 
@@ -23,4 +22,3 @@ function scr_battle_new(run, enemy_id) {
     return b;
 }
 
-}

@@ -1,4 +1,3 @@
-function scr_battle_play_card(){
 function scr_battle_play_card(b, hand_index) {
     if (hand_index < 0 || hand_index >= array_length(b.hand)) return;
 
@@ -28,4 +27,3 @@ function scr_battle_play_card(b, hand_index) {
     scr_battle_check_end(b);
 }
 
-}
