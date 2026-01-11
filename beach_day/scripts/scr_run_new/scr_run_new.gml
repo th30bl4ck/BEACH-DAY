@@ -1,4 +1,3 @@
-function scr_run_new(){
 function scr_run_new() {
     var run = {
         deck: [],
@@ -15,4 +14,3 @@ function scr_run_new() {
     return run;
 }
 
-}

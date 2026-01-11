@@ -1,4 +1,3 @@
-function Script8(){
 function scr_run_load() {
     if (!file_exists("save_run.json")) return undefined;
     var f = file_text_open_read("save_run.json");
@@ -7,4 +6,3 @@ function scr_run_load() {
     return json_parse(json);
 }
 
-}

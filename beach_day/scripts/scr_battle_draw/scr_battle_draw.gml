@@ -1,4 +1,3 @@
-function scr_battle_draw(){
 function scr_battle_draw(b, n) {
     for (var i=0;i<n;i++) {
         if (array_length(b.draw_pile) == 0) {
@@ -13,4 +12,3 @@ function scr_battle_draw(b, n) {
     }
 }
 
-}

@@ -1,4 +1,3 @@
-function scr_imprint_apply_on_play(){
 function scr_imprint_apply_on_play(run, b, card_inst, card_def) {
     // Salt Burn: attacks +1 damage, but take 1 after playing an attack
     for (var i=0;i<array_length(run.imprints);i++) {
@@ -14,4 +13,3 @@ function scr_imprint_apply_on_play(run, b, card_inst, card_def) {
     }
 }
 
-}

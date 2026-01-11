@@ -1,4 +1,3 @@
-function scr_run_save(){
 function scr_run_save(run) {
     var json = json_stringify(run);
     var f = file_text_open_write("save_run.json");
@@ -6,4 +5,3 @@ function scr_run_save(run) {
     file_text_close(f);
 }
 
-}

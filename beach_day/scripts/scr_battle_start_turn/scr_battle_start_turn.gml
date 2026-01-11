@@ -1,4 +1,3 @@
-function scr_battle_start_turn(){
 function scr_battle_start_turn(b) {
     // reset energy, clear block decay rules later
     b.player.energy = 3;
@@ -6,4 +5,3 @@ function scr_battle_start_turn(b) {
     scr_battle_draw(b, 5);
 }
 
-}

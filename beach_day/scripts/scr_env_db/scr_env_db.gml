@@ -1,4 +1,3 @@
-function scr_env_db(){
 function scr_env_db() {
     return {
         ruins: { id:"ruins", name:"The Ruins",
@@ -13,4 +12,3 @@ function scr_make_env(env_id) {
     return variable_struct_get(db, env_id);
 }
 
-}

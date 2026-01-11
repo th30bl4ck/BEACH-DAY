@@ -1,4 +1,3 @@
-function scr_enemy_db(){
 function scr_enemy_db() {
     return {
         acolyte: { id:"acolyte", name:"Acolyte", hp:30,
@@ -22,4 +21,3 @@ function scr_make_enemy(enemy_id) {
     };
 }
 
-}

@@ -1,4 +1,3 @@
-function scr_battle_enemy_act(){
 function scr_battle_enemy_act(b) {
     // clear enemy block each round? up to you; keep for now
     // enemy chooses intent
@@ -20,4 +19,3 @@ function scr_battle_enemy_act(b) {
     }
 }
 
-}

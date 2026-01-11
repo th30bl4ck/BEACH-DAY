@@ -1,4 +1,3 @@
-function scr_battle_end_turn(){
 function scr_battle_end_turn(b) {
     // discard hand
     while (array_length(b.hand) > 0) {
@@ -10,4 +9,3 @@ function scr_battle_end_turn(b) {
     scr_battle_start_turn(b);
 }
 
-}
